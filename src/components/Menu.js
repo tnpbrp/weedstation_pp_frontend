@@ -328,21 +328,6 @@ const itemsToRender = [
         cate: 'stick',
     },
     {
-        name: 'Green Crack',
-        price: 100,
-        img: 'green_crack2.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 0,
-            indica: 0,
-            thc: 0,
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        }
-    },
-    {
         name: 'roll',
         price: 200,
         img: 'roll1.jpg',
