@@ -1,7 +1,6 @@
 // import { Menu } from 'antd';
 // import { MailOutlined } from '@ant-design/icons';
 import logoWeedStaion from '../assets/images/Weed_Station.jpg';
-// import LINE_icon from '../assets/images/LINE_icon.png'
 // const { SubMenu } = Menu;
 
 const navbarStyle = {
@@ -66,9 +65,7 @@ function Navbar() {
                     </span>
                     <span className='' style={{ ...contactIcon_style }}>
                         <a href="https://line.me/ti/p/9P3vcSl0BF" target="_blank" rel="noopener noreferrer" style={{ color: 'white' }}>
-                            {/* <i className="fab fa-line" style={{color:'#39CD00',backgroundColor:'white',}}></i> */}
                             <i class="fa-brands fa-line" style={{ color: '#39CD00', backgroundColor: 'transparent', }}></i>
-                            {/* <img src={LINE_icon} style={{width:30,paddingBlockStart:17}}/> */}
                         </a>
                     </span>
                 </div>
