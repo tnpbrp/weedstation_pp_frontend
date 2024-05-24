@@ -30,6 +30,21 @@ const textPriceStyle = {
 
 const itemsToRender = [
     {
+        name: 'เศษดอก Wedding Cake',
+        price: 250,
+        img: 'wedding_cake.jpg',
+        cate: 'trim',
+        desc: {
+            title: '',
+            santiva: 20,
+            indica: 80,
+            thc: 24,
+            cbd: null,
+            strain_flovors: '',
+            effect: '',
+        },
+    },
+    {
         name: 'Water Melon Zkittle',
         price: 250,
         img: 'water_melon_zkittle.jpg',
