@@ -31,7 +31,7 @@ const textPriceStyle = {
 const itemsToRender = [
     {
         name: 'เศษดอก Wedding Cake',
-        price: 250,
+        price: 100,
         img: 'wedding_cake.jpg',
         cate: 'trim',
         desc: {
@@ -424,11 +424,11 @@ function Menu() {
     // const [WindowWidth, setWindowWidth] = useState(window.innerWidth);
     const [cardWidth, setCardWidth] = useState(150); // * Default = 240
     const [responsiveSpan, setResponsiveSpan] = useState(12);
+    const [productsAll, setProductsAll] = useState({});
+
     useEffect(() => {
         const handleResize = () => {
-            if (window.innerWidth <= 450) {
-            } else if (window.innerWidth <= 520) {
-            } else if (window.innerWidth < 768) {
+            if (window.innerWidth < 768) {
                 console.log("Mobile")
             } else if (window.innerWidth >= 768 && window.innerWidth < 1024) {
                 console.log("Tablet")
@@ -440,7 +440,7 @@ function Menu() {
         };
 
         // เพิ่ม event listener เพื่อตรวจจับเหตุการณ์ resize
-        window.addEventListener('resize', handleResize);
+        // window.addEventListener('resize', handleResize);
 
         // คืนฟังก์ชันที่ใช้เพื่อลบ event listener เมื่อคอมโพเนนต์ถูกยกเลิก
         return () => {
@@ -449,6 +449,21 @@ function Menu() {
     }, []);
 
     useEffect(() => {
+        // Define the sorting order of categories
+        const categoryOrder = ['flower', 'trim', 'roll', 'stick', 'item'];
+
+        // Sort the items array by category
+        const sortedItems = itemsToRender.sort((a, b) => {
+            // Get the index of each category in the categoryOrder array
+            const indexA = categoryOrder.indexOf(a.cate);
+            const indexB = categoryOrder.indexOf(b.cate);
+
+            // Compare the indexes to determine the sorting order
+            return indexA - indexB;
+        });
+
+        setProductsAll(sortedItems);
+
         //1. Filter items is not images
         //2. Sort flower , trim , roll , stick , items
     }, []);
@@ -470,8 +485,12 @@ function Menu() {
                             style={{
                                 width: cardWidth,
                             }}
-                            cover={<Image src={require(`../assets/images/products/` + item.img)} style={imageStyle} />}
+                            cover={<Image src={require(`../assets/images/products/` + item.img)} style={imageStyle} loading="lazy" />}
                         >
+                            {/* {
+                                <><span>New !!!</span></>
+                            } */}
+
                             {item.name != '' ?
                                 <Meta title={item.name} description={<span className='text-price' style={textPriceStyle}>{item.price + ' ฿'} </span>} />
                                 :

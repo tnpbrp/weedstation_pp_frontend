@@ -23,10 +23,10 @@ const logoStyle = {
 }
 
 const frist_navStyle = {
-    height:'55px',
-    display:'flex',
+    height: '55px',
+    display: 'flex',
     alignItems: 'center',
-    justifyContent:'center'
+    justifyContent: 'center'
 };
 
 const second_navStyle = {
@@ -39,9 +39,9 @@ const second_navStyle = {
 };
 
 const contactIcon_style = {
-    fontSize: '25px', 
+    fontSize: '25px',
     color: 'white',
-    padding:'0 14px'
+    padding: '0 14px'
 };
 
 
@@ -58,14 +58,20 @@ function Navbar() {
                 <img src={logoWeedStaion} alt="WeedStaionPP" style={logoStyle} />
 
                 <div className='clickContact'>
-                    <span className='' style={{ ...contactIcon_style}}>
+                    <span className='' style={{ ...contactIcon_style }}>
                         <a href="tel:+66909929671" style={{ color: 'white' }}>
                             <i className="fas fa-phone" style={{ color: 'black' }}></i>
                         </a>
                     </span>
                     <span className='' style={{ ...contactIcon_style }}>
                         <a href="https://line.me/ti/p/9P3vcSl0BF" target="_blank" rel="noopener noreferrer" style={{ color: 'white' }}>
-                            <i class="fa-brands fa-line" style={{ color: '#39CD00', backgroundColor: 'transparent', }}></i>
+                            <i className="fa-brands fa-line" style={{ color: '#39CD00', backgroundColor: 'transparent', }}></i>
+                        </a>
+                    </span>
+                    <span className='' style={{ ...contactIcon_style }}>
+                        <a href="https://maps.app.goo.gl/xKcYkKHsTTqLAiBj7" target="_blank" rel="noopener noreferrer" style={{ color: 'white' }}>
+                            {/* <i className="fa-brands fa-google" style={{ color: '#FF5722', backgroundColor: 'transparent' }}></i> */}
+                            <i className="fas fa-map-marker-alt"  style={{color: 'blue',backgroundColor:'transparent'}} ></i>
                         </a>
                     </span>
                 </div>
