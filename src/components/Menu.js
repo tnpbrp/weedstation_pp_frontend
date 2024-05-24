@@ -424,7 +424,6 @@ function Menu() {
     // const [WindowWidth, setWindowWidth] = useState(window.innerWidth);
     const [cardWidth, setCardWidth] = useState(150); // * Default = 240
     const [responsiveSpan, setResponsiveSpan] = useState(12);
-    const [productsAll, setProductsAll] = useState({});
 
     useEffect(() => {
         const handleResize = () => {
@@ -435,7 +434,6 @@ function Menu() {
             } else {
                 console.log("Desktop")
             }
-            console.log(window.innerWidth)
             // setWindowWidth(window.innerWidth);
         };
 
@@ -462,10 +460,10 @@ function Menu() {
             return indexA - indexB;
         });
 
-        setProductsAll(sortedItems);
+        console.log(itemsToRender)
 
         //1. Filter items is not images
-        //2. Sort flower , trim , roll , stick , items
+        //2. Sort flower , trim , roll , stick , items * success
     }, []);
 
     return (
