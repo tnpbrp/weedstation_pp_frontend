@@ -29,6 +29,51 @@ const textPriceStyle = {
 };
 
 const itemsToRender = [
+     {
+        name: 'ipenema',
+        price: 300,
+        img: 'S__30498841_0.jpg',
+        cate: 'flower',
+        desc: {
+            title: '',
+            santiva: 70,
+            indica: 30,
+            thc: 28,
+            cbd: null,
+            strain_flovors: 'berry , orange',
+            effect: 'talking, happy',
+        },
+    },
+     {
+        name: 'Tigerz eye',
+        price: 400,
+        img: 'S__30498839_0.jpg',
+        cate: 'flower',
+        desc: {
+            title: '',
+            santiva: 0,
+            indica: 100,
+            thc: '18-20',
+            cbd: null,
+            strain_flovors: 'Gelato',
+            effect: 'Awake',
+        },
+    },
+     {
+        name: '11:11 (RS11)',
+        price: 400,
+        img: 'S__30498839_0.jpg',
+        cate: 'flower',
+        desc: {
+            title: '',
+            santiva: 50,
+            indica: 50,
+            thc: 30,
+            cbd: null,
+            strain_flovors: 'berry',
+            effect: 'creative',
+        },
+    },
     {
         name: 'เศษดอก Wedding Cake',
         price: 100,
