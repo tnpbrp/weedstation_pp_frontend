@@ -43,6 +43,7 @@ const itemsToRender = [
             strain_flovors: '',
             effect: '',
         },
+    },
      {
         name: 'ipenema',
         price: 300,
