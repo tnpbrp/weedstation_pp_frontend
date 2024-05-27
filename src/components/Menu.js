@@ -29,6 +29,20 @@ const textPriceStyle = {
 };
 
 const itemsToRender = [
+    {
+        name: 'LA Banana Cake',
+        price: 400,
+        img: '1716825619358.jpg',
+        cate: 'flower',
+        desc: {
+            title: '',
+            santiva: 40,
+            indica: 60,
+            thc: 28,
+            cbd: null,
+            strain_flovors: '',
+            effect: '',
+        },
      {
         name: 'ipenema',
         price: 300,
