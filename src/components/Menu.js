@@ -179,24 +179,24 @@ const itemsToRender = [
             effect: '',
         },
     },
-    {
-        name: 'Water Melon Zkittle',
-        price: 250,
-        img: 'water_melon_zkittle.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 47,
-            indica: 53,
-            thc: 25,
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        },
-    },
+    // {
+    //     name: 'Water Melon Zkittle',
+    //     price: 250,
+    //     img: '',
+    //     cate: 'flower',
+    //     desc: {
+    //         title: '',
+    //         santiva: 47,
+    //         indica: 53,
+    //         thc: 25,
+    //         cbd: null,
+    //         strain_flovors: '',
+    //         effect: '',
+    //     },
+    // },
     {
         name: 'Godfather',
-        price: 200,
+        price: 250,
         img: 'Godfather.png',
         cate: 'flower',
         desc: {
@@ -239,21 +239,21 @@ const itemsToRender = [
             effect: '',
         }
     },
-    {
-        name: 'Compounds',
-        price: 250,
-        img: '1714556485748.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 0,
-            indica: 0,
-            thc: 0,
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        }
-    },
+    // {
+    //     name: 'Compounds',
+    //     price: 250,
+    //     img: '',
+    //     cate: 'flower',
+    //     desc: {
+    //         title: '',
+    //         santiva: 0,
+    //         indica: 0,
+    //         thc: 0,
+    //         cbd: null,
+    //         strain_flovors: '',
+    //         effect: '',
+    //     }
+    // },
     {
         name: 'Gorilla Skizttle',
         price: 250,
@@ -344,21 +344,21 @@ const itemsToRender = [
             effect: '',
         }
     },
-    {
-        name: 'เศษดอก Super Lemon Haze',
-        price: 140,
-        img: '1714305894949.jpg',
-        cate: 'trim',
-        desc: {
-            title: '',
-            santiva: 0,
-            indica: 0,
-            thc: 0,
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        }
-    },
+    // {
+    //     name: 'เศษดอก Super Lemon Haze',
+    //     price: 140,
+    //     img: '.jpg',
+    //     cate: 'trim',
+    //     desc: {
+    //         title: '',
+    //         santiva: 0,
+    //         indica: 0,
+    //         thc: 0,
+    //         cbd: null,
+    //         strain_flovors: '',
+    //         effect: '',
+    //     }
+    // },
     {
         name: 'Power',
         price: 400,
@@ -412,7 +412,7 @@ const itemsToRender = [
     },
     {
         name: 'Sugar Cane',
-        price: 200,
+        price: 250,
         img: 'Sugar_Cane.jpg',
         cate: 'flower',
         desc: {
