@@ -137,7 +137,7 @@ const itemsToRender = [
      {
         name: 'Tigerz eye',
         price: 400,
-        img: 'S__30498839_0.jpg',
+        img: 'S__32088085.jpg',
         cate: 'flower',
         desc: {
             title: '',
