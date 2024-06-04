@@ -164,21 +164,21 @@ const itemsToRender = [
             effect: 'creative',
         },
     },
-    {
-        name: 'เศษดอก Wedding Cake',
-        price: 100,
-        img: 'wedding_cake.jpg',
-        cate: 'trim',
-        desc: {
-            title: '',
-            santiva: 20,
-            indica: 80,
-            thc: 24,
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        },
-    },
+    // {
+    //     name: 'เศษดอก Wedding Cake',
+    //     price: 100,
+    //     img: '.jpg',
+    //     cate: 'trim',
+    //     desc: {
+    //         title: '',
+    //         santiva: 20,
+    //         indica: 80,
+    //         thc: 24,
+    //         cbd: null,
+    //         strain_flovors: '',
+    //         effect: '',
+    //     },
+    // },
     // {
     //     name: 'Water Melon Zkittle',
     //     price: 250,
@@ -224,21 +224,21 @@ const itemsToRender = [
             effect: '',
         }
     },
-    {
-        name: 'Future#1',
-        price: 180,
-        img: '1715008634549.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 50,
-            indica: 50,
-            thc: null,
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        }
-    },
+    // {
+    //     name: 'Future#1',
+    //     price: 180,
+    //     img: '.jpg',
+    //     cate: 'flower',
+    //     desc: {
+    //         title: '',
+    //         santiva: 50,
+    //         indica: 50,
+    //         thc: null,
+    //         cbd: null,
+    //         strain_flovors: '',
+    //         effect: '',
+    //     }
+    // },
     // {
     //     name: 'Compounds',
     //     price: 250,
@@ -254,36 +254,36 @@ const itemsToRender = [
     //         effect: '',
     //     }
     // },
-    {
-        name: 'Gorilla Skizttle',
-        price: 250,
-        img: '1714556435668.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 40,
-            indica: 60,
-            thc: 24,
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        }
-    },
-    {
-        name: 'Lava Freeze',
-        price: 250,
-        img: '1714556431761.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 10,
-            indica: 90,
-            thc: 20,
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        }
-    },
+    // {
+    //     name: 'Gorilla Skizttle',
+    //     price: 250,
+    //     img: '.jpg',
+    //     cate: 'flower',
+    //     desc: {
+    //         title: '',
+    //         santiva: 40,
+    //         indica: 60,
+    //         thc: 24,
+    //         cbd: null,
+    //         strain_flovors: '',
+    //         effect: '',
+    //     }
+    // },
+    // {
+    //     name: 'Lava Freeze',
+    //     price: 250,
+    //     img: '.jpg',
+    //     cate: 'flower',
+    //     desc: {
+    //         title: '',
+    //         santiva: 10,
+    //         indica: 90,
+    //         thc: 20,
+    //         cbd: null,
+    //         strain_flovors: '',
+    //         effect: '',
+    //     }
+    // },
     {
         name: 'Super Lemon Haze',
         price: 350,
