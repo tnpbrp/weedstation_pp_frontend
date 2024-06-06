@@ -30,6 +30,36 @@ const textPriceStyle = {
 
 const itemsToRender = [
     {
+        name: 'Mimosa Evo',
+        price: 400,
+        img: 'S__32890892_0.jpg',
+        cate: 'flower',
+        desc: {
+            title: '',
+            santiva: 40,
+            indica: 60,
+            thc: 25,
+            cbd: null,
+            strain_flovors: '',
+            effect: '',
+        },
+    },
+    {
+        name: 'Platinum Oreoz',
+        price: 400,
+        img: 'S__32890890_0.jpg',
+        cate: 'flower',
+        desc: {
+            title: '',
+            santiva: 40,
+            indica: 60,
+            thc: 27,
+            cbd: null,
+            strain_flovors: '',
+            effect: '',
+        },
+    },
+    {
         name: 'Grand Daddy Purple',
         price: 250,
         img: 'S__31678476_0.jpg',
