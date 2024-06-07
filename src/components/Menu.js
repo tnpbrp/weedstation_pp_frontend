@@ -699,7 +699,7 @@ function Menu() {
             // Compare the indexes to determine the sorting order
             return indexA - indexB;
         });
-        
+        setProductList(sortedItems)
         console.log(products)
 
         //1. Filter items is not images
