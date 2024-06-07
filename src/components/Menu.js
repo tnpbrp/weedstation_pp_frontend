@@ -30,6 +30,52 @@ const textPriceStyle = {
 
 const itemsToRender = [
     {
+        name: 'ใบทริม Bruce Baner',
+        price: 50,
+        img: 'S__33071112_0.jpg',
+        cate: 'trim',
+        desc: {
+            title: '',
+            santiva: 60,
+            indica: 40,
+            thc: 0,
+            cbd: null,
+            strain_flovors: '',
+            effect: '',
+        },
+    },
+    {
+        name: 'ใบทริม Wedding Cake',
+        price: 50,
+        img: 'S__33071109_0.jpg',
+        cate: 'trim',
+        desc: {
+            title: '',
+            santiva: 20,
+            indica: 80,
+            thc: 0,
+            cbd: null,
+            strain_flovors: '',
+            effect: '',
+        },
+    },
+    {
+        name: 'ใบทริม Honey Cream',
+        price: 50,
+        img: 'S__33071111_0.jpg',
+        cate: 'trim',
+        desc: {
+            title: '',
+            santiva: 35,
+            indica: 65,
+            thc: 0,
+            cbd: null,
+            strain_flovors: '',
+            effect: '',
+        },
+    },
+
+    {
         name: 'Mimosa Evo',
         price: 400,
         img: 'S__32890892_0.jpg',
