@@ -28,7 +28,37 @@ const textPriceStyle = {
     fontWeight: 'bold',
 };
 
-const itemsToRender = [
+const products = [
+    {
+        name: 'Gorilla glue',
+        price: 250,
+        img: 'S__33071119.jpg',
+        cate: 'flower',
+        desc: {
+            title: '',
+            santiva: 35,
+            indica: 65,
+            thc: 20,
+            cbd: null,
+            strain_flovors: '',
+            effect: '',
+        },
+    },
+    {
+        name: 'เศษดอก Wedding Cake',
+        price: 120,
+        img: 'S__33071117.jpg',
+        cate: 'trim',
+        desc: {
+            title: '',
+            santiva: 20,
+            indica: 80,
+            thc: 0,
+            cbd: null,
+            strain_flovors: '',
+            effect: '',
+        },
+    },
     {
         name: 'ใบทริม Bruce Baner',
         price: 50,
@@ -74,7 +104,6 @@ const itemsToRender = [
             effect: '',
         },
     },
-
     {
         name: 'Mimosa Evo',
         price: 400,
@@ -635,7 +664,7 @@ function Menu() {
     // const [WindowWidth, setWindowWidth] = useState(window.innerWidth);
     const [cardWidth, setCardWidth] = useState(150); // * Default = 240
     const [responsiveSpan, setResponsiveSpan] = useState(12);
-
+    const [productList,setProductList] = useState([]);
     useEffect(() => {
         const handleResize = () => {
             if (window.innerWidth < 768) {
@@ -662,7 +691,7 @@ function Menu() {
         const categoryOrder = ['flower', 'trim', 'roll', 'stick', 'item'];
 
         // Sort the items array by category
-        const sortedItems = itemsToRender.sort((a, b) => {
+        const sortedItems = products.sort((a, b) => {
             // Get the index of each category in the categoryOrder array
             const indexA = categoryOrder.indexOf(a.cate);
             const indexB = categoryOrder.indexOf(b.cate);
@@ -670,8 +699,8 @@ function Menu() {
             // Compare the indexes to determine the sorting order
             return indexA - indexB;
         });
-
-        console.log(itemsToRender)
+        
+        console.log(products)
 
         //1. Filter items is not images
         //2. Sort flower , trim , roll , stick , items * success
@@ -687,7 +716,7 @@ function Menu() {
                     md: 24,
                     lg: 32,
                 }, 24]} style={row_style} className='row-items'>
-                {itemsToRender.map((item, idx) =>
+                {productList.map((item, idx) =>
                     <Col className="gutter-row" span={responsiveSpan} key={idx} style={col_style}>
                         <Card
                             hoverable
