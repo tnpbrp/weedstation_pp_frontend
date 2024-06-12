@@ -30,6 +30,20 @@ const textPriceStyle = {
 
 const products = [
     {
+        name: 'Grinder',
+        price: 250,
+        img: 'grinder2.jpg',
+        cate: 'item',
+        
+    },
+    {
+        name: 'Toppuff',
+        price: 200,
+        img: 'top_puff2.jpg',
+        cate: 'item',
+        
+    },
+    {
         name: 'Gorilla glue',
         price: 250,
         img: 'S__33071119.jpg',
