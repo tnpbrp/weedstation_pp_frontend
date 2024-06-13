@@ -29,7 +29,6 @@ const textPriceStyle = {
 };
 
 const products = [
-    
     {
         name: 'เศษดอก Medellin',
         price: 150,
@@ -45,7 +44,7 @@ const products = [
             effect: '',
         },
     },
-     {
+    {
         name: 'เศษดอก White Runtz',
         price: 150,
         img: 'white_runtz_.jpg',
@@ -57,7 +56,7 @@ const products = [
             thc: '25',
             cbd: null,
             strain_flovors: '',
-            effect: '',
+            effect: 'relaxed',
         },
     },
     {
@@ -65,14 +64,14 @@ const products = [
         price: 250,
         img: 'grinder2.jpg',
         cate: 'item',
-        
+
     },
     {
         name: 'Toppuff',
         price: 200,
         img: 'top_puff2.jpg',
         cate: 'item',
-        
+
     },
     {
         name: 'Gorilla glue',
@@ -269,7 +268,7 @@ const products = [
             effect: '',
         },
     },
-     {
+    {
         name: 'ipenema',
         price: 300,
         img: 'S__30498841_0.jpg',
@@ -284,7 +283,7 @@ const products = [
             effect: 'talking, happy',
         },
     },
-     {
+    {
         name: 'Tigerz eye',
         price: 400,
         img: 'S__32088085.jpg',
@@ -299,7 +298,7 @@ const products = [
             effect: 'Awake',
         },
     },
-     {
+    {
         name: '11:11 (RS11)',
         price: 400,
         img: 'S__30498839_0.jpg',
@@ -604,7 +603,7 @@ function Menu() {
     // const [WindowWidth, setWindowWidth] = useState(window.innerWidth);
     const [cardWidth, setCardWidth] = useState(150); // * Default = 240
     const [responsiveSpan, setResponsiveSpan] = useState(12);
-    const [productList,setProductList] = useState([]);
+    const [productList, setProductList] = useState([]);
     useEffect(() => {
         const handleResize = () => {
             if (window.innerWidth < 768) {
