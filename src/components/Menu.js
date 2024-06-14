@@ -68,7 +68,7 @@ const products = [
     },
     {
         name: 'Toppuff',
-        price: 200,
+        price: 250,
         img: 'top_puff2.jpg',
         cate: 'item',
 
