@@ -89,21 +89,6 @@ const products = [
         },
     },
     {
-        name: 'เศษดอก Wedding Cake',
-        price: 120,
-        img: 'S__33071117.jpg',
-        cate: 'trim',
-        desc: {
-            title: '',
-            santiva: 20,
-            indica: 80,
-            thc: '0',
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        },
-    },
-    {
         name: 'ใบทริม Bruce Baner',
         price: 50,
         img: 'S__33071112_0.jpg',
@@ -194,21 +179,6 @@ const products = [
         },
     },
     {
-        name: 'Lilac Diesel',
-        price: 250,
-        img: 'S__31678478_0.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 50,
-            indica: 50,
-            thc: '20',
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        },
-    },
-    {
         name: 'Banana Hammock',
         price: 200,
         img: 'S__31678470_0.jpg',
@@ -218,21 +188,6 @@ const products = [
             santiva: 30,
             indica: 70,
             thc: '22-25',
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        },
-    },
-    {
-        name: 'Congo',
-        price: 200,
-        img: 'S__31678472_0.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 100,
-            indica: 0,
-            thc: '18-24',
             cbd: null,
             strain_flovors: '',
             effect: '',
@@ -329,21 +284,6 @@ const products = [
         }
     },
     {
-        name: 'Mandarin Cookies',
-        price: 180,
-        img: '1715008634680.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 20,
-            indica: 80,
-            thc: '0',
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        }
-    },
-    {
         name: 'Super Lemon Haze',
         price: 350,
         img: '1714556426651.jpg',
@@ -389,21 +329,6 @@ const products = [
         }
     },
     {
-        name: 'Northern Light',
-        price: 350,
-        img: '1714556425574.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 20,
-            indica: 80,
-            thc: '25',
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        }
-    },
-    {
         name: 'Power',
         price: 400,
         img: '1714305889326.jpg',
@@ -428,21 +353,6 @@ const products = [
             santiva: 30,
             indica: 70,
             thc: '20',
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        }
-    },
-    {
-        name: 'Z - Pie',
-        price: 200,
-        img: 'z_pie.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 70,
-            indica: 30,
-            thc: '26-30',
             cbd: null,
             strain_flovors: '',
             effect: '',
