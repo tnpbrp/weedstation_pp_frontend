@@ -30,6 +30,36 @@ const textPriceStyle = {
 
 const products = [
     {
+        name: 'Chronic cake',
+        price: 400,
+        img: 'S__3039240_0.jpg',
+        cate: 'flower',
+        desc: {
+            title: '',
+            santiva: 0,
+            indica: 0,
+            thc: '27-30',
+            cbd: null,
+            strain_flovors: 'cake',
+            effect: 'hight body',
+        },
+    },
+    {
+        name: 'Da Funk',
+        price: 400,
+        img: 'S__3039238_0.jpg',
+        cate: 'flower',
+        desc: {
+            title: '',
+            santiva: 30,
+            indica: 70,
+            thc: '30',
+            cbd: null,
+            strain_flovors: 'sweet',
+            effect: 'hight body',
+        },
+    },
+    {
         name: 'White runtz',
         price: 250,
         img: 'S__2318355_0.jpg',
@@ -329,21 +359,6 @@ const products = [
         },
     },
     {
-        name: 'Tigerz eye',
-        price: 400,
-        img: 'S__32088085.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 0,
-            indica: 100,
-            thc: '18-20',
-            cbd: null,
-            strain_flovors: 'Gelato',
-            effect: 'Awake',
-        },
-    },
-    {
         name: '11:11 (RS11)',
         price: 400,
         img: 'S__30498839_0.jpg',
@@ -428,21 +443,6 @@ const products = [
             santiva: 60,
             indica: 40,
             thc: '15',
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        }
-    },
-    {
-        name: 'Animal Runtz',
-        price: 400,
-        img: '1714305883327.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 30,
-            indica: 70,
-            thc: '20',
             cbd: null,
             strain_flovors: '',
             effect: '',
