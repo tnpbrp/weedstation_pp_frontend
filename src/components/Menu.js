@@ -238,21 +238,7 @@ const products = [
             effect: '',
         },
     },
-    {
-        name: 'ใบทริม Honey Cream',
-        price: 50,
-        img: 'S__33071111_0.jpg',
-        cate: 'trim',
-        desc: {
-            title: '',
-            santiva: 35,
-            indica: 65,
-            thc: '0',
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        },
-    },
+    
     {
         name: 'Mimosa Evo',
         price: 400,
@@ -359,21 +345,6 @@ const products = [
         },
     },
     {
-        name: '11:11 (RS11)',
-        price: 400,
-        img: 'S__30498839_0.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 50,
-            indica: 50,
-            thc: '30',
-            cbd: null,
-            strain_flovors: 'berry',
-            effect: 'creative',
-        },
-    },
-    {
         name: 'Godfather',
         price: 250,
         img: 'Godfather.png',
@@ -428,21 +399,6 @@ const products = [
             santiva: 0,
             indica: 0,
             thc: '24',
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        }
-    },
-    {
-        name: 'Power',
-        price: 400,
-        img: '1714305889326.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 60,
-            indica: 40,
-            thc: '15',
             cbd: null,
             strain_flovors: '',
             effect: '',
