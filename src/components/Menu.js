@@ -210,7 +210,7 @@ const products = [
     },
     {
         name: 'ใบทริม Bruce Baner',
-        price: 50,
+        price: 60,
         img: 'S__33071112_0.jpg',
         cate: 'trim',
         desc: {
@@ -225,7 +225,7 @@ const products = [
     },
     {
         name: 'ใบทริม Wedding Cake',
-        price: 50,
+        price: 60,
         img: 'S__33071109_0.jpg',
         cate: 'trim',
         desc: {
