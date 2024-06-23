@@ -553,7 +553,7 @@ const products = [
 
     },
 ];
-// Cate flower , trim , item & stick & roll = remove desc
+
 
 function Menu() {
     // const [WindowWidth, setWindowWidth] = useState(window.innerWidth);
