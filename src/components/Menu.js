@@ -285,21 +285,6 @@ const products = [
         },
     },
     {
-        name: 'LA Banana Cake',
-        price: 400,
-        img: '1716825619358.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 40,
-            indica: 60,
-            thc: '28',
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        },
-    },
-    {
         name: 'ipenema',
         price: 300,
         img: 'S__30498841_0.jpg',
@@ -324,36 +309,6 @@ const products = [
             santiva: 40,
             indica: 60,
             thc: '30',
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        }
-    },
-    {
-        name: 'Super Lemon Haze',
-        price: 350,
-        img: '1714556426651.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 90,
-            indica: 10,
-            thc: '20',
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        }
-    },
-    {
-        name: 'Velvet Moons',
-        price: 350,
-        img: '1714556425763.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 40,
-            indica: 60,
-            thc: '0',
             cbd: null,
             strain_flovors: '',
             effect: '',
@@ -455,12 +410,6 @@ const products = [
     },
     {
         name: 'บ้องแก้ว',
-        price: 700,
-        img: 'bong_2.jpg',
-        cate: 'item',
-    },
-    {
-        name: 'บ้องแก้ว',
         price: 600,
         img: 'bong_3.jpg',
         cate: 'item',
@@ -468,15 +417,15 @@ const products = [
     },
     {
         name: 'บ้องแก้ว',
-        price: 1200,
-        img: '1714305877218.jpg',
+        price: 1000,
+        img: 'bong1000.jpg',
         cate: 'item',
 
     },
     {
         name: 'บ้องแก้ว',
-        price: 1400,
-        img: 'Bong_1400.jpg',
+        price: 1200,
+        img: '1714305877218.jpg',
         cate: 'item',
 
     },
