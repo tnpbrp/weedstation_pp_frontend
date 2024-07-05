@@ -30,6 +30,67 @@ const textPriceStyle = {
 
 const products = [
     {
+        name: 'BISCOTTI',
+        price: 400,
+        img: 'S__6660098_0.jpg',
+        cate: 'flower',
+        desc: {
+            title: '',
+            santiva: 0,
+            indica: 0,
+            thc: '20',
+            cbd: null,
+            strain_flovors: '',
+            effect: '',
+        },
+    },
+    {
+        name: 'VELVET MOON',
+        price: 400,
+        img: 'S__6660100_0.jpg',
+        cate: 'flower',
+        desc: {
+            title: '',
+            santiva: 0,
+            indica: 0,
+            thc: '23.6',
+            cbd: null,
+            strain_flovors: '',
+            effect: '',
+        },
+    },
+    {
+        name: 'PULP FRICTION',
+        price: 400,
+        img: 'S__6660101_0.jpg',
+        cate: 'flower',
+        desc: {
+            title: '',
+            santiva: 0,
+            indica: 0,
+            thc: '0',
+            cbd: null,
+            strain_flovors: '',
+            effect: '',
+        },
+    },
+    {
+        name: 'ztrawberry',
+        price: 400,
+        img: 'S__6660102_0.jpg',
+        cate: 'flower',
+        desc: {
+            title: '',
+            santiva: 0,
+            indica: 0,
+            thc: '22.48',
+            cbd: null,
+            strain_flovors: '',
+            effect: '',
+        },
+    },
+
+    {
         name: 'Chronic cake',
         price: 400,
         img: 'S__3039240_0.jpg',
@@ -57,21 +118,6 @@ const products = [
             cbd: null,
             strain_flovors: 'sweet',
             effect: 'hight body',
-        },
-    },
-    {
-        name: 'White runtz',
-        price: 250,
-        img: 'S__2318355_0.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 0,
-            indica: 0,
-            thc: '30',
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
         },
     },
     {
@@ -238,22 +284,7 @@ const products = [
             effect: '',
         },
     },
-    
-    {
-        name: 'Mimosa Evo',
-        price: 400,
-        img: 'S__32890892_0.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 40,
-            indica: 60,
-            thc: '25',
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        },
-    },
+  
     {
         name: 'Platinum Oreoz',
         price: 400,
@@ -309,21 +340,6 @@ const products = [
             santiva: 40,
             indica: 60,
             thc: '30',
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        }
-    },
-    {
-        name: 'Sour DieSel',
-        price: 350,
-        img: '1714556425684.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 0,
-            indica: 0,
-            thc: '24',
             cbd: null,
             strain_flovors: '',
             effect: '',
