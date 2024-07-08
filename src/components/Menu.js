@@ -96,9 +96,9 @@ const products = [
         cate: 'flower',
         desc: {
             title: '',
-            santiva: 0,
-            indica: 0,
-            thc: '0',
+            santiva: 10,
+            indica: 90,
+            thc: '24',
             cbd: null,
             strain_flovors: '',
             effect: '',
@@ -111,9 +111,9 @@ const products = [
         cate: 'flower',
         desc: {
             title: '',
-            santiva: 0,
-            indica: 0,
-            thc: '0',
+            santiva: 90,
+            indica: 10,
+            thc: '22',
             cbd: null,
             strain_flovors: '',
             effect: '',
@@ -126,9 +126,9 @@ const products = [
         cate: 'flower',
         desc: {
             title: '',
-            santiva: 0,
-            indica: 0,
-            thc: '0',
+            santiva: 30,
+            indica: 70,
+            thc: '23-28',
             cbd: null,
             strain_flovors: '',
             effect: '',
@@ -143,7 +143,7 @@ const products = [
             title: '',
             santiva: 0,
             indica: 0,
-            thc: '0',
+            thc: '23',
             cbd: null,
             strain_flovors: '',
             effect: '',
@@ -156,9 +156,9 @@ const products = [
         cate: 'flower',
         desc: {
             title: '',
-            santiva: 0,
-            indica: 0,
-            thc: '0',
+            santiva: 20,
+            indica: 80,
+            thc: '20',
             cbd: null,
             strain_flovors: '',
             effect: '',
@@ -583,7 +583,6 @@ function Menu() {
 
         // เพิ่ม event listener เพื่อตรวจจับเหตุการณ์ resize
         // window.addEventListener('resize', handleResize);
-
         // คืนฟังก์ชันที่ใช้เพื่อลบ event listener เมื่อคอมโพเนนต์ถูกยกเลิก
         return () => {
             window.removeEventListener('resize', handleResize);
