@@ -30,537 +30,470 @@ const textPriceStyle = {
 
 const products = [
     {
-        name: 'BISCOTTI',
-        price: 400,
-        img: 'S__6660098_0.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 0,
-            indica: 0,
-            thc: '20',
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        },
+        "name": "Truffle Monkey",
+        "price": 400,
+        "img": "S__8830992_0.jpg",
+        "cate": "flower",
+        "desc": "",
+        "santiva": 60,
+        "indica": 0,
+        "thc": "30",
+        "cbd": null,
+        "flovors": "",
+        "effect": ""
     },
     {
-        name: 'VELVET MOON',
-        price: 400,
-        img: 'S__6660100_0.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 0,
-            indica: 0,
-            thc: '23.6',
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        },
+        "name": "Cookies kush",
+        "price": 400,
+        "img": "S__8830994_0.jpg",
+        "cate": "flower",
+        "desc": "",
+        "santiva": 70,
+        "indica": 0,
+        "thc": "28",
+        "cbd": null,
+        "flovors": "",
+        "effect": ""
     },
     {
-        name: 'PULP FRICTION',
-        price: 400,
-        img: 'S__6660101_0.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 0,
-            indica: 0,
-            thc: '0',
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        },
+        "name": "Guava Tangie",
+        "price": 400,
+        "img": "S__8830995_0.jpg",
+        "cate": "flower",
+        "desc": "",
+        "santiva": 70,
+        "indica": 0,
+        "thc": "28",
+        "cbd": null,
+        "flovors": "",
+        "effect": ""
     },
     {
-        name: 'ztrawberry',
-        price: 400,
-        img: 'S__6660102_0.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 0,
-            indica: 0,
-            thc: '22.48',
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        },
+        "name": "Midnight Daylight",
+        "price": 400,
+        "img": "S__8830996_0.jpg",
+        "cate": "flower",
+        "desc": "",
+        "santiva": 0,
+        "indica": 100,
+        "thc": "30",
+        "cbd": null,
+        "flovors": "",
+        "effect": ""
     },
     {
-        name: 'ดอก POP Sensi Star',
-        price: 180,
-        img: 'S__6701058_0.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 10,
-            indica: 90,
-            thc: '24',
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        },
+        "name": "Cafe Racer",
+        "price": 400,
+        "img": "S__8830997_0.jpg",
+        "cate": "flower",
+        "desc": "",
+        "santiva": 70,
+        "indica": 0,
+        "thc": "28",
+        "cbd": null,
+        "flovors": "",
+        "effect": ""
     },
     {
-        name: 'ดอก POP Utopia Haze',
-        price: 180,
-        img: 'S__6701060_0.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 90,
-            indica: 10,
-            thc: '22',
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        },
+        "name": "Gran master sexy",
+        "price": 250,
+        "img": "S__8830998_0.jpg",
+        "cate": "flower",
+        "desc": "",
+        "santiva": 70,
+        "indica": 0,
+        "thc": "30",
+        "cbd": null,
+        "flovors": "",
+        "effect": ""
     },
     {
-        name: 'ดอก POP LA Kush Cake',
-        price: 180,
-        img: 'S__6701061_0.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 30,
-            indica: 70,
-            thc: '23-28',
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        },
+        "name": "Miracle cheery",
+        "price": 250,
+        "img": "S__8830999_0.jpg",
+        "cate": "flower",
+        "desc": "",
+        "santiva": 0,
+        "indica": 70,
+        "thc": "",
+        "cbd": null,
+        "flovors": "",
+        "effect": ""
     },
     {
-        name: 'ดอก POP Cinderella 99',
-        price: 180,
-        img: 'S__6701062_0.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 0,
-            indica: 0,
-            thc: '23',
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        },
+        "name": "Black Berry Hybrid",
+        "price": 250,
+        "img": "S__8831000_0.jpg",
+        "cate": "flower",
+        "desc": "",
+        "santiva": 0,
+        "indica": 0,
+        "thc": "25",
+        "cbd": null,
+        "flovors": "",
+        "effect": ""
     },
     {
-        name: 'ดอก POP White Rhino',
-        price: 180,
-        img: 'S__6701063_0.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 20,
-            indica: 80,
-            thc: '20',
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        },
+        "name": "Truffle Monkey",
+        "price": 100,
+        "img": "S__8831001_0.jpg",
+        "cate": "flower",
+        "desc": "ใบทริม indoor",
+        "santiva": 60,
+        "indica": 0,
+        "thc": "30",
+        "cbd": null,
+        "flovors": "",
+        "effect": ""
     },
     {
-        name: 'Chronic cake',
-        price: 400,
-        img: 'S__3039240_0.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 0,
-            indica: 0,
-            thc: '27-30',
-            cbd: null,
-            strain_flovors: 'cake',
-            effect: 'hight body',
-        },
+        "name": "Pineapple Express",
+        "price": 200,
+        "img": "S__8831002_0.jpg",
+        "cate": "flower",
+        "desc": "Mini (indoor)",
+        "santiva": 60,
+        "indica": 0,
+        "thc": "25",
+        "cbd": null,
+        "flovors": "",
+        "effect": ""
     },
     {
-        name: 'Da Funk',
-        price: 400,
-        img: 'S__3039238_0.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 30,
-            indica: 70,
-            thc: '30',
-            cbd: null,
-            strain_flovors: 'sweet',
-            effect: 'hight body',
-        },
+        "name": "BISCOTTI",
+        "price": 400,
+        "img": "S__6660098_0.jpg",
+        "cate": "flower",
+        "desc": "",
+        "santiva": 0,
+        "indica": 0,
+        "thc": "20",
+        "cbd": null,
+        "flovors": "",
+        "effect": ""
     },
     {
-        name: 'Joker Candy',
-        price: 250,
-        img: 'S__2318349_0.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 50,
-            indica: 50,
-            thc: '30',
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        },
+        "name": "VELVET MOON",
+        "price": 400,
+        "img": "S__6660100_0.jpg",
+        "cate": "flower",
+        "desc": "",
+        "santiva": 0,
+        "indica": 0,
+        "thc": "23.6",
+        "cbd": null,
+        "flovors": "",
+        "effect": ""
     },
     {
-        name: 'Blueberry',
-        price: 250,
-        img: 'S__2318351_0.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 20,
-            indica: 80,
-            thc: '25',
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        },
+        "name": "PULP FRICTION",
+        "price": 400,
+        "img": "S__6660101_0.jpg",
+        "cate": "flower",
+        "desc": "",
+        "santiva": 0,
+        "indica": 0,
+        "thc": "0",
+        "cbd": null,
+        "flovors": "",
+        "effect": ""
     },
     {
-        name: 'Purple Queen',
-        price: 250,
-        img: 'S__2318353_0.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 25,
-            indica: 75,
-            thc: '22',
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        },
+        "name": "ztrawberry",
+        "price": 400,
+        "img": "S__6660102_0.jpg",
+        "cate": "flower",
+        "desc": "",
+        "santiva": 0,
+        "indica": 0,
+        "thc": "22.48",
+        "cbd": null,
+        "flovors": "",
+        "effect": ""
     },
     {
-        name: 'Apples & Banana',
-        price: 250,
-        img: 'S__2318352_0.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 50,
-            indica: 50,
-            thc: '30',
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        },
+        "name": "ดอก POP Sensi Star",
+        "price": 180,
+        "img": "S__6701058_0.jpg",
+        "cate": "flower",
+        "desc": "",
+        "santiva": 10,
+        "indica": 90,
+        "thc": "24",
+        "cbd": null,
+        "flovors": "",
+        "effect": ""
     },
     {
-        name: 'Bottom Bird',
-        price: 250,
-        img: 'S__2318354_0.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 40,
-            indica: 60,
-            thc: '26',
-            cbd: null,
-            strain_flovors: 'herbel , woody',
-            effect: '',
-        },
+        "name": "ดอก POP Utopia Haze",
+        "price": 180,
+        "img": "S__6701060_0.jpg",
+        "cate": "flower",
+        "desc": "",
+        "santiva": 90,
+        "indica": 10,
+        "thc": "22",
+        "cbd": null,
+        "flovors": "",
+        "effect": ""
     },
     {
-        name: 'เศษดอก Medellin',
-        price: 150,
-        img: 'S__1744903.jpg',
-        cate: 'trim',
-        desc: {
-            title: '',
-            santiva: 0,
-            indica: 0,
-            thc: '25-34',
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        },
+        "name": "ดอก POP LA Kush Cake",
+        "price": 180,
+        "img": "S__6701061_0.jpg",
+        "cate": "flower",
+        "desc": "",
+        "santiva": 30,
+        "indica": 70,
+        "thc": "23-28",
+        "cbd": null,
+        "flovors": "",
+        "effect": ""
     },
     {
-        name: 'เศษดอก White Runtz',
-        price: 150,
-        img: 'white_runtz_.jpg',
-        cate: 'trim',
-        desc: {
-            title: '',
-            santiva: 0,
-            indica: 0,
-            thc: '25',
-            cbd: null,
-            strain_flovors: '',
-            effect: 'relaxed',
-        },
+        "name": "ดอก POP Cinderella 99",
+        "price": 180,
+        "img": "S__6701062_0.jpg",
+        "cate": "flower",
+        "desc": "",
+        "santiva": 0,
+        "indica": 0,
+        "thc": "23",
+        "cbd": null,
+        "flovors": "",
+        "effect": ""
     },
     {
-        name: 'Grinder',
-        price: 250,
-        img: 'grinder2.jpg',
-        cate: 'item',
-
+        "name": "ดอก POP White Rhino",
+        "price": 180,
+        "img": "S__6701063_0.jpg",
+        "cate": "flower",
+        "desc": "",
+        "santiva": 20,
+        "indica": 80,
+        "thc": "20",
+        "cbd": null,
+        "flovors": "",
+        "effect": ""
     },
     {
-        name: 'Toppuff',
-        price: 250,
-        img: 'top_puff2.jpg',
-        cate: 'item',
-
+        "name": "Chronic cake",
+        "price": 400,
+        "img": "S__3039240_0.jpg",
+        "cate": "flower",
+        "desc": "",
+        "santiva": 0,
+        "indica": 0,
+        "thc": "27-30",
+        "cbd": null,
+        "flovors": "cake",
+        "effect": "hight body"
     },
     {
-        name: 'Gorilla glue',
-        price: 250,
-        img: 'S__33071119.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 35,
-            indica: 65,
-            thc: '20',
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        },
+        "name": "Joker Candy",
+        "price": 250,
+        "img": "S__2318349_0.jpg",
+        "cate": "flower",
+        "desc": "",
+        "santiva": 50,
+        "indica": 50,
+        "thc": "30",
+        "cbd": null,
+        "flovors": "",
+        "effect": ""
     },
     {
-        name: 'ใบทริม Bruce Baner',
-        price: 60,
-        img: 'S__33071112_0.jpg',
-        cate: 'trim',
-        desc: {
-            title: '',
-            santiva: 60,
-            indica: 40,
-            thc: '0',
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        },
+        "name": "Blueberry",
+        "price": 250,
+        "img": "S__2318351_0.jpg",
+        "cate": "flower",
+        "desc": "",
+        "santiva": 20,
+        "indica": 80,
+        "thc": "25",
+        "cbd": null,
+        "flovors": "",
+        "effect": ""
     },
     {
-        name: 'ใบทริม Wedding Cake',
-        price: 60,
-        img: 'S__33071109_0.jpg',
-        cate: 'trim',
-        desc: {
-            title: '',
-            santiva: 20,
-            indica: 80,
-            thc: '0',
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        },
-    },
-    
-    {
-        name: 'Platinum Oreoz',
-        price: 400,
-        img: 'S__32890890_0.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 40,
-            indica: 60,
-            thc: '27',
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        },
+        "name": "Grinder",
+        "price": 250,
+        "img": "grinder2.jpg",
+        "cate": "item"
     },
     {
-        name: 'Grand Daddy Purple',
-        price: 250,
-        img: 'S__31678476_0.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 0,
-            indica: 100,
-            thc: '25',
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        },
+        "name": "Toppuff",
+        "price": 250,
+        "img": "top_puff2.jpg",
+        "cate": "item"
     },
     {
-        name: 'ipenema',
-        price: 300,
-        img: 'S__30498841_0.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 70,
-            indica: 30,
-            thc: '28',
-            cbd: null,
-            strain_flovors: 'berry , orange',
-            effect: 'talking, happy',
-        },
+        "name": "Gorilla glue",
+        "price": 250,
+        "img": "S__33071119.jpg",
+        "cate": "flower",
+        "desc": "",
+        "santiva": 35,
+        "indica": 65,
+        "thc": "20",
+        "cbd": null,
+        "flovors": "",
+        "effect": ""
     },
     {
-        name: 'Godfather',
-        price: 250,
-        img: 'Godfather.png',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 40,
-            indica: 60,
-            thc: '30',
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        }
+        "name": "ใบทริม Bruce Baner",
+        "price": 60,
+        "img": "S__33071112_0.jpg",
+        "cate": "trim",
+        "desc": "",
+        "santiva": 60,
+        "indica": 40,
+        "thc": "0",
+        "cbd": null,
+        "flovors": "",
+        "effect": ""
     },
     {
-        name: 'Bamboo',
-        price: 200,
-        img: 'Bamboo.jpg',
-        cate: 'item',
+        "name": "ใบทริม Wedding Cake",
+        "price": 60,
+        "img": "S__33071109_0.jpg",
+        "cate": "trim",
+        "desc": "",
+        "santiva": 20,
+        "indica": 80,
+        "thc": "0",
+        "cbd": null,
+        "flovors": "",
+        "effect": ""
     },
     {
-        name: 'Sugar Cane',
-        price: 250,
-        img: 'Sugar_Cane.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 60,
-            indica: 40,
-            thc: '18',
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        }
+        "name": "Platinum Oreoz",
+        "price": 400,
+        "img": "S__32890890_0.jpg",
+        "cate": "flower",
+        "desc": "",
+        "santiva": 40,
+        "indica": 60,
+        "thc": "27",
+        "cbd": null,
+        "flovors": "",
+        "effect": ""
     },
     {
-        name: 'paper',
-        price: 120,
-        img: 'paper_roll.jpg',
-        cate: 'item',
+        "name": "Bamboo",
+        "price": 200,
+        "img": "Bamboo.jpg",
+        "cate": "item"
     },
     {
-        name: '-',
-        price: 100,
-        img: 'S__151994378_0.jpg',
-        cate: 'item',
+        "name": "paper",
+        "price": 120,
+        "img": "paper_roll.jpg",
+        "cate": "item"
     },
     {
-        name: 'Pipe',
-        price: 180,
-        img: 'Pipe.jpg',
-        cate: 'item',
+        "name": "-",
+        "price": 100,
+        "img": "S__151994378_0.jpg",
+        "cate": "item"
     },
     {
-        name: 'Green Crack Pack',
-        price: 450,
-        img: 'green_crack_pack.jpg',
-        cate: 'stick',
-
+        "name": "Pipe",
+        "price": 180,
+        "img": "Pipe.jpg",
+        "cate": "item"
     },
     {
-        name: 'Green Crack',
-        price: 100,
-        img: 'green_crack2.jpg',
-        cate: 'flower',
-        desc: {
-            title: '',
-            santiva: 0,
-            indica: 0,
-            thc: '0',
-            cbd: null,
-            strain_flovors: '',
-            effect: '',
-        }
+        "name": "Green Crack Pack",
+        "price": 450,
+        "img": "green_crack_pack.jpg",
+        "cate": "stick"
     },
     {
-        name: 'อัดแท่ง 100 G',
-        price: 550,
-        img: 'stick1.jpg',
-        cate: 'stick',
+        "name": "Green Crack",
+        "price": 100,
+        "img": "green_crack2.jpg",
+        "cate": "flower",
+        "desc": "",
+        "santiva": 0,
+        "indica": 0,
+        "thc": "0",
+        "cbd": null,
+        "flovors": "",
+        "effect": ""
     },
     {
-        name: 'อัดแท่ง เขียวๆ',
-        price: 100,
-        img: 'stick2.jpg',
-        cate: 'stick',
+        "name": "อัดแท่ง 100 G",
+        "price": 550,
+        "img": "stick1.jpg",
+        "cate": "stick"
     },
     {
-        name: 'roll',
-        price: 200,
-        img: 'roll1.jpg',
-        cate: 'roll',
+        "name": "อัดแท่ง เขียวๆ",
+        "price": 100,
+        "img": "stick2.jpg",
+        "cate": "stick"
     },
     {
-        name: 'บ้องแก้ว',
-        price: 600,
-        img: 'bong_3.jpg',
-        cate: 'item',
-
+        "name": "roll",
+        "price": 200,
+        "img": "roll1.jpg",
+        "cate": "roll"
     },
     {
-        name: 'บ้องแก้ว',
-        price: 1000,
-        img: 'bong1000.jpg',
-        cate: 'item',
-
+        "name": "บ้องแก้ว",
+        "price": 600,
+        "img": "bong_3.jpg",
+        "cate": "item"
     },
     {
-        name: 'บ้องแก้ว',
-        price: 1200,
-        img: '1714305877218.jpg',
-        cate: 'item',
-
+        "name": "บ้องแก้ว",
+        "price": 1000,
+        "img": "bong1000.jpg",
+        "cate": "item"
     },
     {
-        name: 'TOPPUFF',
-        price: 160,
-        img: 'toppuff.jpg',
-        cate: 'item',
-
+        "name": "บ้องแก้ว",
+        "price": 1200,
+        "img": "1714305877218.jpg",
+        "cate": "item"
     },
     {
-        name: 'Grinder',
-        price: 350,
-        img: 'grinder.jpg',
-        cate: 'item',
-
+        "name": "TOPPUFF",
+        "price": 160,
+        "img": "toppuff.jpg",
+        "cate": "item"
     },
     {
-        name: 'Paper',
-        price: 120,
-        img: 'paper_roll.jpg',
-        cate: 'item',
-
+        "name": "Grinder",
+        "price": 350,
+        "img": "grinder.jpg",
+        "cate": "item"
     },
     {
-        name: 'Paper',
-        price: 60,
-        img: 'paper2.jpg',
-        cate: 'item',
-
+        "name": "Paper",
+        "price": 120,
+        "img": "paper_roll.jpg",
+        "cate": "item"
     },
     {
-        name: 'Paper',
-        price: 60,
-        img: 'paper3.jpg',
-        cate: 'item',
-
+        "name": "Paper",
+        "price": 60,
+        "img": "paper2.jpg",
+        "cate": "item"
     },
     {
-        name: 'Paper',
-        price: 60,
-        img: 'paper4.jpg',
-        cate: 'item',
-
+        "name": "Paper",
+        "price": 60,
+        "img": "paper3.jpg",
+        "cate": "item"
     },
+    {
+        "name": "Paper",
+        "price": 60,
+        "img": "paper4.jpg",
+        "cate": "item"
+    }
 ];
 
 
@@ -569,6 +502,9 @@ function Menu() {
     const [cardWidth, setCardWidth] = useState(150); // * Default = 240
     const [responsiveSpan, setResponsiveSpan] = useState(12);
     const [productList, setProductList] = useState([]);
+
+
+
     useEffect(() => {
         const handleResize = () => {
             if (window.innerWidth < 768) {
@@ -581,9 +517,6 @@ function Menu() {
             // setWindowWidth(window.innerWidth);
         };
 
-        // เพิ่ม event listener เพื่อตรวจจับเหตุการณ์ resize
-        // window.addEventListener('resize', handleResize);
-        // คืนฟังก์ชันที่ใช้เพื่อลบ event listener เมื่อคอมโพเนนต์ถูกยกเลิก
         return () => {
             window.removeEventListener('resize', handleResize);
         };
@@ -595,18 +528,15 @@ function Menu() {
 
         // Sort the items array by category
         const sortedItems = products.sort((a, b) => {
-            // Get the index of each category in the categoryOrder array
             const indexA = categoryOrder.indexOf(a.cate);
             const indexB = categoryOrder.indexOf(b.cate);
-
-            // Compare the indexes to determine the sorting order
             return indexA - indexB;
         });
-        setProductList(sortedItems)
+        setProductList(sortedItems);
         console.log(products)
 
-        //1. Filter items is not images
-        //2. Sort flower , trim , roll , stick , items * success
+        //1. Cut items is not images
+        //2. Sort flower , trim , roll , stick , items * Success
     }, []);
 
     return (
@@ -628,27 +558,52 @@ function Menu() {
                             }}
                             cover={<Image src={require(`../assets/images/products/` + item.img)} style={imageStyle} loading="lazy" />}
                         >
-                            {/* {
-                                <><span>New !!!</span></>
-                            } */}
 
-                            {item.name != '' ?
+                            {item.name !== '' ?
                                 <Meta title={item.name} description={<span className='text-price' style={textPriceStyle}>{item.price + ' ฿'} </span>} />
                                 :
                                 <Meta title={<br></br>} description={<br></br>} />
                             }
 
-                            {item.desc ?
-                                <Meta title={''} description={`santiva : ${item.desc.santiva} % ` + ` indica : ${item.desc.indica} %`} style={{ paddingTop: 5 }} />
-                                :
-                                <Meta title={''} description={<><br></br><br></br></>} />
+                            {
+                                item.desc ?
+                                    <span title={''} style={{ color: 'rgb(78, 47, 255)' }}>* {item.desc} </span> :
+                                    ''
+                            }
+
+
+                            {
+                                item.santiva || item.indica !== '' ?
+                                    <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', margin: '5px 0px' }}>
+                                        <span style={{ display: item.santiva ? '' : 'none', borderRight: item.indica ? 'green 1px solid' : '' }}>Santiva {item.santiva} %</span>
+                                        <span style={{ display: item.indica ? '' : 'none' }}>Indica {item.indica} %</span>
+
+                                        {/* <span title={''} description={item.santiva ? `Santiva : ${item.santiva} %` : ''} style={{ padding: '5 0px' }} />
+                                        <span title={''} description={item.indica ? `Indica : ${item.indica} %` : ''} style={{ padding: '5 0px' }} /> */}
+                                    </div>
+                                    :
+                                    <Meta title={''} description={''} />
                             }
 
                             {
-                                item.desc && item.desc.thc ? <Meta title={''} description={`THC : ${item.desc.thc} %`} /> :
+                                item.thc > 0 || item.cbd > 0 ?
+                                    <>
+                                        <Meta title={''} description={item.thc ? `THC : ${item.thc} %` : ''} />
+                                        <Meta title={''} description={item.cbd ? `CBD : ${item.cbd} %` : ''} />
+                                    </>
+                                    :
                                     <Meta title={''} description={<br></br>} />
                             }
 
+                            {/* {
+                                item.flovors || item.effect ?
+                                    <>
+                                        <Meta title={''} description={item.flovors ? `Flovors : ${item.flovors} ` : ''} />
+                                        <Meta title={''} description={item.effect ? `Effect : ${item.effect} ` : ''} />
+                                    </>
+                                    :
+                                    <Meta title={''} description={<br></br>} />
+                            } */}
 
 
                         </Card>

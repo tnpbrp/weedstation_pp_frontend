@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.ant-card-meta-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: all 0.7s ease;
+}
+
+.ant-card-meta-title:hover {
+  white-space: normal;
+  overflow: visible;
+  color: rgb(15, 184, 82);
+}
