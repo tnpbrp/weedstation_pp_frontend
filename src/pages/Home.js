@@ -67,8 +67,9 @@ function Home() {
         {/* <FloatButton icon={<img src={telImg} />} /> */}
       </Content>
       <Footer style={footerStyle}>
-        <Image src={imgCover} style={footerImgStyle} preview={false} />
-        <Image src={scanQR} style={footerImgStyle} alt='' />
+        Weed Station P&P
+        {/* <Image src={imgCover} style={footerImgStyle} preview={false} />
+        <Image src={scanQR} style={footerImgStyle} alt='' /> */}
       </Footer>
     </Layout>
   );
