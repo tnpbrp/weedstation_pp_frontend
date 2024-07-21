@@ -59,8 +59,8 @@ function Navbar() {
 
                 <div className='clickContact'>
                     <span className='' style={{ ...contactIcon_style }}>
-                        <a href="tel:0968292587" style={{ color: 'white' }}>
-                        {/* , +66909929671 */}
+                        <a href="tel:0909929671" style={{ color: 'white' }}>
+                        {/* 0968292587, 0909929671 */}
                             <i className="fas fa-phone" style={{ color: 'black' }}></i>
                         </a>
                     </span>
