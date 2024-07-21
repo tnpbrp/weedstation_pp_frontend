@@ -532,11 +532,16 @@ function Menu() {
             const indexB = categoryOrder.indexOf(b.cate);
             return indexA - indexB;
         });
-        setProductList(sortedItems);
-        console.log(products)
+        // Sort flower , trim , roll , stick , items
 
-        //1. Cut items is not images
-        //2. Sort flower , trim , roll , stick , items * Success
+        const filteredItems = sortedItems.filter(item => {
+            // Add cut items is not images
+            return item.cate !== 'item';
+        });
+
+        setProductList(filteredItems);
+        // console.log(products)
+
     }, []);
 
     return (
