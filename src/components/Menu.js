@@ -30,6 +30,19 @@ const textPriceStyle = {
 
 const products = [
     {
+        "name": "Californina Gold",
+        "price": 100,
+        "img": "S__12460141.jpg",
+        "cate": "trim",
+        "desc": "",
+        "santiva": 0,
+        "indica": 0,
+        "thc": "",
+        "cbd": null,
+        "flovors": "",
+        "effect": ""
+    },
+    {
         "name": "Panty Punch",
         "price": 250,
         "img": "S__10944548_0.jpg",
