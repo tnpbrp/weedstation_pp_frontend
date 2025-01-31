@@ -30,6 +30,71 @@ const textPriceStyle = {
 
 const products = [
     {
+        "name": "Ice Cream Cake",
+        "price": 200,
+        "img": "S__32784397_0.jpg",
+        "cate": "flower",
+        "desc": "",
+        "santiva": 30,
+        "indica": 70,
+        "thc": "32",
+        "cbd": null,
+        "flovors": "",
+        "effect": ""
+    },
+    {
+        "name": "White Truffle",
+        "price": 300,
+        "img": "S__32784399_0.jpg",
+        "cate": "flower",
+        "desc": "",
+        "santiva": 20,
+        "indica": 80,
+        "thc": "",
+        "cbd": null,
+        "flovors": "",
+        "effect": ""
+    },
+    {
+        "name": "Slurricane",
+        "price": 300,
+        "img": "S__32784400_0.jpg",
+        "cate": "flower",
+        "desc": "",
+        "santiva": 20,
+        "indica": 80,
+        "thc": "27",
+        "cbd": null,
+        "flovors": "",
+        "effect": ""
+    },
+    {
+        "name": "Oreo big stuff",
+        "price": 200,
+        "img": "S__34029572_0.jpg",
+        "cate": "flower",
+        "desc": "",
+        "santiva": 50,
+        "indica": 50,
+        "thc": "30",
+        "cbd": null,
+        "flovors": "",
+        "effect": ""
+    },
+    {
+        "name": "Money Ball",
+        "price": 200,
+        "img": "S__34029574_0.jpg",
+        "cate": "flower",
+        "desc": "",
+        "santiva": 40,
+        "indica": 60,
+        "thc": "30",
+        "cbd": null,
+        "flovors": "",
+        "effect": ""
+    },
+    {
         "name": "Dante's Inferno",
         "price": 400,
         "img": "S__32243715_0.jpg",
